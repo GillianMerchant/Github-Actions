@@ -2,7 +2,8 @@ name: Build-Test-Deploy
 
 on: 
     push:
-        - master
+        branches:
+            - master
         
 jobs:
     Build-Job:
@@ -11,8 +12,8 @@ jobs:
         steps:
             - uses: actions/checkout@v1
             - name: Install surge
-              uses: actions/setup-node@v1
-              with:
+            - uses: actions/setup-node@v1
+            - with:
                 node-version:12
             - run: npm install -g surge
         

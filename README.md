@@ -1,4 +1,12 @@
-A sample website to try out github actions with 
+A sample website to try out github actions with. 
+
+Using
+- Gatsby to create a site
+- Surge to deploy it
+- Github Actions to automate the pipeline
+
+My notes are here:
+https://www.notion.so/CI-with-Github-Actions-401f9d64bc6845ba83895f07193c6617
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
